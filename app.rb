@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end
 
   post '/' do
-    text_from_user = 
+    text_from_user = p
     
     @analyzed_text = TextAnalyzer.new(params[:user_text])
  
